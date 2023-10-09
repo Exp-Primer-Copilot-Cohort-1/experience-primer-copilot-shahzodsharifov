@@ -8,4 +8,4 @@ var User = require('../models/user');
 // Create a comment
 router.post('/', function(req, res) {
     var comment = new Comment({
-        content: req.body.content,
+        content: req.body.content,})})
